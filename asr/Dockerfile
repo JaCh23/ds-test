@@ -6,6 +6,7 @@ WORKDIR /app
 
 # Copy requirements.txt (if you have one)
 COPY requirements.txt .
+
 # Install dependencies
 RUN pip install -r requirements.txt
 

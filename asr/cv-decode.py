@@ -61,7 +61,8 @@ def process_audio_directory(audio_dir, start_index=0, end_index=None):
 
     Args:
         audio_dir (str): Path to the directory containing audio files.
-        batch_size (int): Number of files to process in each batch.
+        start_index (int): The index of the first file to process.
+        end_index (int): The index of the last file to process.
 
     Returns:
         list: A list of tuples, where each tuple represents a file with 
